@@ -1,0 +1,146 @@
+img {
+    max-height: 60px;
+    max-width: auto;
+}
+
+.section1 {
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.section1 div {
+    display: flex;
+    padding-top: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: stretch;
+
+
+}
+
+.section1 div a {
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.section1 button {
+    padding: 10px 
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #0573cd;
+    min-width;width: 150px;
+    color: white;
+    height: 50px;
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 25px;
+    align-content: space-between;
+
+}
+   
+li {
+    display: inline;
+    margin: 20px;
+    min-width: 680px;
+}
+
+@media only screen and (max-width: 600px) {
+    .section1 div li {
+    display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="section2"] {
+      width: 100%;
+    }
+}
+.section2 {
+    font-size: 20px;
+    height: 100%;;
+    width: 100%;
+    overflow: auto;
+    align-content: space-around;
+    padding-left: 80px;
+    padding: 20px;
+}
+.section2 button {
+    background-color: #0573cd;;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 250px;
+    height: 50px;
+
+}
+header {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-size: 2rem
+}
+.section2  {
+    /* min-height: 40px; */
+    min-width: 10px;
+    display: flex;
+
+}
+.section2 #left {
+    min-height: 400px;
+    min-width: 500px;
+    margin: auto;
+}
+body {
+    max-height: 400px;
+    max-width: 1300px;
+    padding: 20px;
+    margin: auto;
+    
+    /* text-align: center; */
+}
+
+
+.section2 div img {
+    
+    min-height: 500px;
+    min-width: 700px;
+    padding: 20px;
+    /* margin-right: 50px; */
+    float: right;
+    margin-right: 10px; 
+    /* Adjust this value as needed */
+}
+@media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+
+.nav {
+    /* background-color: #444; */
+    /* color: #fff; */
+    
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  /* .footer { */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
